@@ -24,3 +24,13 @@ jobs:
                 with:
                     deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
                     publish_dir: ./build
+            -   name: executing remote ssh commands using ssh key
+                uses: appleboy/ssh-action@master
+                with:
+                    host: react.goldenacker.de
+                    username: ${{ secrets.GOLDENACKER_USER }}
+                    key: ${{ secrets.GOLDENACKER_ACTIONS_DEPLOY_KEY }}
+                    port: 22
+                    script: |
+                        whoami
+                        ls -al
