@@ -1,4 +1,4 @@
-import './App.css';
+import './assets/css/app.css';
 import Home from "./components/Home";
 import Wetter from "./components/Wetter";
 import Default from "./components/Default";
