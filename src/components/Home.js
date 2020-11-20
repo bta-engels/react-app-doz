@@ -1,5 +1,6 @@
 import {React, Component} from 'react';
 import Clock from "./Clock";
+import Default from "./Default";
 
 class Home extends Component {
 
