@@ -1,4 +1,4 @@
-name: DeploymentReactGoldenacker
+name: "CI ReactGoldenacker"
 on:
     push:
         branches:
