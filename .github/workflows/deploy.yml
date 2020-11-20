@@ -34,5 +34,5 @@ jobs:
                     script: |
                         whoami
                         cd react.goldenacker.de
-                        git fetch origin gh-pages
+                        git pull origin gh-pages
                         ls -al
