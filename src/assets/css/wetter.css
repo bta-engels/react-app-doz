@@ -1,11 +1,11 @@
 .sommer {
-	background-image: url("../assets/sommer.jpg");
+	background-image: url("../sommer.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .winter {
-	background-image: url("../assets/winter.jpg");
+	background-image: url("../winter.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

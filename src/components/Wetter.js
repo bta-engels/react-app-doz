@@ -1,4 +1,4 @@
-import '../css/wetter.css';
+import '../assets/css/wetter.css';
 import {React, Component} from 'react';
 import axios from 'axios';
 

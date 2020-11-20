@@ -1,5 +1,5 @@
 import {React, Component} from 'react';
-import '../css/slideShow.css';
+import '../assets/css/slideShow.css';
 
 class SlideShow extends Component {
 	interval = null

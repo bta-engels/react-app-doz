@@ -18,7 +18,7 @@ class Clock extends Component {
 	}
 
 	render() {
-		return (<span>{this.state.currentTime}</span>);
+		return (<span className="clock">{this.state.currentTime}</span>);
 	}
 
 }
