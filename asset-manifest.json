@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93893e3d.chunk.css",
+    "main.js": "/static/js/main.7bd42a7b.chunk.js",
+    "main.js.map": "/static/js/main.7bd42a7b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ce61b2a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ce61b2a.js.map",
+    "static/js/2.41fe0f74.chunk.js": "/static/js/2.41fe0f74.chunk.js",
+    "static/js/2.41fe0f74.chunk.js.map": "/static/js/2.41fe0f74.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.93893e3d.chunk.css.map": "/static/css/main.93893e3d.chunk.css.map",
+    "static/js/2.41fe0f74.chunk.js.LICENSE.txt": "/static/js/2.41fe0f74.chunk.js.LICENSE.txt",
+    "static/media/cowboy.jpg": "/static/media/cowboy.db5a2cf7.jpg",
+    "static/media/fahrrad.jpg": "/static/media/fahrrad.3b76cf09.jpg",
+    "static/media/femö1.jpg": "/static/media/femö1.ca9efcce.jpg",
+    "static/media/haus_in_strasse.jpg": "/static/media/haus_in_strasse.30195c71.jpg",
+    "static/media/hooge_parking.jpg": "/static/media/hooge_parking.cf24bd53.jpg",
+    "static/media/hütte.jpg": "/static/media/hütte.a1592814.jpg",
+    "static/media/mueritzsee.jpg": "/static/media/mueritzsee.8d8cd858.jpg",
+    "static/media/möwen.jpg": "/static/media/möwen.1767a8f7.jpg",
+    "static/media/pamina_helgoland.jpg": "/static/media/pamina_helgoland.d2923920.jpg",
+    "static/media/robben.jpg": "/static/media/robben.03bdb3a1.jpg",
+    "static/media/scorpion.jpg": "/static/media/scorpion.f016e093.jpg",
+    "static/media/see.jpg": "/static/media/see.ccb4f039.jpg",
+    "static/media/wetter.css": "/static/media/winter.707b35c0.jpg",
+    "static/media/venus.jpg": "/static/media/venus.a127726d.jpg",
+    "static/media/vw.jpg": "/static/media/vw.fbd06f0b.jpg",
+    "static/media/watt.jpg": "/static/media/watt.e5ebc14b.jpg",
+    "static/media/ziel.jpg": "/static/media/ziel.c1204a12.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ce61b2a.js",
+    "static/js/2.41fe0f74.chunk.js",
+    "static/css/main.93893e3d.chunk.css",
+    "static/js/main.7bd42a7b.chunk.js"
+  ]
+}
