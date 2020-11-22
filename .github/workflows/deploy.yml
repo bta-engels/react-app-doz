@@ -55,5 +55,11 @@ jobs:
                     script: |   # shell commands on remote production server
                         whoami
                         cd react.goldenacker.de
-                        git pull origin gh-pages
+                        if [ -d ".git" ]; then
+                            echo "git pull"
+                            git pull origin gh-pages
+                        else
+                            echo "git clone"
+                            git clone -b gh-pages --single-branch https://github.com/berndengels/react-app-doz.git .
+                        fi
                         ls -al
