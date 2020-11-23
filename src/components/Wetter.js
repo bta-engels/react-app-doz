@@ -9,7 +9,7 @@ class Wetter extends Component {
     // eslint-disable-next-line
     constructor(props) {
         super(props);
-        this.onSumit = this.onSumit.bind(this);
+//        this.onSumit = this.onSumit.bind(this);
     }
     state = {
         weather: null,
