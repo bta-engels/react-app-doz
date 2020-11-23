@@ -13,8 +13,8 @@ import {
 
 function App() {
 	const person = {
-		firstname: "Bernd",
-		lastname: "Engels",
+		firstname: "Pippi",
+		lastname: "Langsocke",
 	};
 	return (
 		<Router>
