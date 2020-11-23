@@ -21,7 +21,7 @@ class Wetter extends Component {
         this.getWeather(city);
     }
     getWeather(city) {
-        let url = API_URL + "?q=" + city + ",de&lang=de&units=metric&APPID=" + API_KEY;
+        const url = API_URL + "?q=" + city + ",de&lang=de&units=metric&APPID=" + API_KEY;
         axios
             .get(url)
             .then(res => {
