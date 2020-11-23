@@ -14,7 +14,7 @@ import {
 function App() {
 	const person = {
 		firstname: "Pippi",
-		lastname: "Langsocke",
+		lastname: "Socke",
 	};
 	return (
 		<Router>
