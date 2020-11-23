@@ -6,11 +6,6 @@ const API_URL = 'http://api.openweathermap.org/data/2.5/weather';
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 class Wetter extends Component {
-    // eslint-disable-next-line
-    constructor(props) {
-        super(props);
-//        this.onSumit = this.onSumit.bind(this);
-    }
     state = {
         weather: null,
         error: null
