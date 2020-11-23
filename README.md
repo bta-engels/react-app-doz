@@ -75,3 +75,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### prepare ssh-keys for github deploy actions
+Erstellt in Eurem User-Verzeichnis ein Verzeichnis ".ssh", falls nicht vorhanden.
+Dann per Terminal/Eingabeaufforderung:
+
+cd ~/.ssh
+
+ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages-actions -N ""
+#### look at instructions:
+https://cmichel.medium.com/how-to-deploy-a-create-react-app-with-github-actions-5e01f7a7b6b
+
+https://dev.to/pierresaid/deploy-node-projects-to-github-pages-with-github-actions-4jco
