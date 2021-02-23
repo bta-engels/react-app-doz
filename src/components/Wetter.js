@@ -74,8 +74,8 @@ function WeatherData(props) {
                 <span>{description}</span>
             </div>
             <div className="sun">
-                <div><span>Sunrise  {sunrise} Uhr</span></div>
-                <div><span>Sunset {sunset} Uhr</span></div>
+                <div><span>Sonnenaufgang  {sunrise} Uhr</span></div>
+                <div><span>Sonnenuntergang {sunset} Uhr</span></div>
             </div>
         </div>);
     }
